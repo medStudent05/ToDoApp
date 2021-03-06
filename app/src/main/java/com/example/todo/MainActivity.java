@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         VideoView videoView = findViewById(R.id.videoview);
         String videoPath = "https://www.dropbox.com/s/lgciqib0tdgef63/sample-mp4-file.mp4?dl=0";
         Uri uri = Uri.parse(videoPath);
